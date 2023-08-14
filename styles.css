@@ -68,10 +68,46 @@ body{
     background-color: #8B0000;
 }
 
+.round-btn{
+    background-color: #BF1E23;
+    color: white;
+    /* width: 50px;
+    height: 50px; */
+    border: solid 1px #BF1E23;
+    font-size: 15px;
+    padding: 3px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+#About .container-fluid{
+
+}
+#About h3{
+    color:#BF1E23;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#About p{
+    font-size: 17px;
+    color: #575757;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    /* width: 100%; */
+    line-height: 37px;
+}
+
+#About{
+    background-color: whitesmoke;
+    padding: 7% 13%;
+}
 
 #home-link{
     color: #8B0000;
 }
+
 
 
 
