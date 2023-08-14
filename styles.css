@@ -89,7 +89,7 @@ body{
 }
 #contact-us{
     padding: 7% 13%;
-    background-image: url('slider-image.png');
+    background-image: url('./images/slider-image.png');
     background-size: cover;
 }
 
@@ -110,7 +110,7 @@ body{
 
 
 .banner{
-    background-image: url('form-bg.png');
+    background-image: url('./images/form-bg.png');
     background-size:cover ;
     padding: 40px;
 }
