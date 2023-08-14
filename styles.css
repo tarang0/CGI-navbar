@@ -69,6 +69,7 @@ body{
 }
 
 .round-btn{
+    display: block;
     background-color: #BF1E23;
     color: white;
     /* width: 50px;
@@ -77,9 +78,54 @@ body{
     font-size: 15px;
     padding: 3px 30px;
     border-radius: 30px;
-    display: inline-block;
+    width: fit-content;
+    /* display: inline-block; */
     text-decoration: none;
 }
+
+.round-btn:hover{
+    color: #BF1E23;
+    background-color: whitesmoke;
+}
+#contact-us{
+    padding: 7% 13%;
+    background-image: url('slider-image.png');
+    background-size: cover;
+}
+
+#contact-us p{
+    display: inline-block;
+    color: whitesmoke;
+    line-height: 4.5rem;
+    font-size: x-large;
+}
+
+#contact-us h5{
+    color: #EFA506;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+.banner{
+    background-image: url('form-bg.png');
+    background-size:cover ;
+    padding: 40px;
+}
+
+.form-input{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255,.5);
+    color: #fff;
+    font-size: 16px;
+    height: auto;
+    padding: 0.6rem 0.75rem;
+    border: 0;
+    width: 100%;
+}
+
 #About .container-fluid{
 
 }
