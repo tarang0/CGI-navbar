@@ -356,6 +356,65 @@ body{
     height: 100px;
 }
 
+footer {
+    float: left;
+    width: 100%;
+    background: #BF1E23;
+    padding: 5rem 0 2.5rem;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+footer .container .heading {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+footer .container .news-letter input {
+    padding: 12px 15px;
+    border: 0;
+    border-radius: 20px 0 0 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.enter-details, .footer-section .row{
+    display: flex;
+    justify-content: center;
+}
+.enter-details button {
+    background: #363636;
+    border: 0;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+    display: inline-block;
+}
+
+footer .footer-section {
+    float: left;
+    margin-top: 4rem;
+}
+
+footer .footer-section .heading {
+    font-size: 20px;
+    margin-top: 0;
+}
+footer .footer-section .social-icon a {
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+footer .container a {
+    color: #fff;
+    /* font-size: 12px; */
+}
 
 
 .copyright {
