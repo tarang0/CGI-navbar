@@ -222,5 +222,55 @@
             </div>
         </div>
     </section>
+
+    <section id="player">
+        <div class="container">
+            <!-- Button trigger modal -->
+            <button type="button" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/A-twOC3W558" data-target="#myModal">
+                <svg class="svg-inline--fa fa-play fa-w-14 icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg><!-- <i class="icon fas fa-play"></i> Font Awesome fontawesome.com -->
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A-twOC3W558" id="video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="sponsers">
+        <h2 class="section-heading text-center">Official <em>Sponsers</em></h2>
+
+        <div class="row">
+            <div class="col-md-4 seal">
+                <img src="./images/chandigarh-university-seal.png" class="img-sponser">
+            </div>
+            <div class="col-md-4 seal">
+                <img src="./images/sewapoint.png" class="img-sponser">
+            </div>
+            <div class="col-md-4 seal">
+                <img src="./images/cu-tbi-logo.png" class="img-sponser">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        © Confederation of Global Innovators 2019 - 2020
+    </div>
 </body>
 </html>
